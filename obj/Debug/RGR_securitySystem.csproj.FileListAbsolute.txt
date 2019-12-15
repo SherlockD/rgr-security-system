@@ -1,0 +1,17 @@
+C:/Users/Лучший человек/RiderProjects/RGR_securitySystem/RGR_securitySystem/bin/Debug/RGR_securitySystem.exe
+C:/Users/Лучший человек/RiderProjects/RGR_securitySystem/RGR_securitySystem/bin/Debug/RGR_securitySystem.pdb
+C:/Users/Лучший человек/RiderProjects/RGR_securitySystem/RGR_securitySystem/obj/Debug/RGR_securitySystem.csprojAssemblyReference.cache
+C:/Users/Лучший человек/RiderProjects/RGR_securitySystem/RGR_securitySystem/obj/Debug/RGR_securitySystem.csproj.CoreCompileInputs.cache
+C:/Users/Лучший человек/RiderProjects/RGR_securitySystem/RGR_securitySystem/obj/Debug/RGR_securitySystem.exe
+C:/Users/Лучший человек/RiderProjects/RGR_securitySystem/RGR_securitySystem/obj/Debug/RGR_securitySystem.pdb
+C:/Users/Лучший человек/RiderProjects/RGR_securitySystem/RGR_securitySystem/RGR_securitySystem/bin/Debug/RGR_securitySystem.exe
+C:/Users/Лучший человек/RiderProjects/RGR_securitySystem/RGR_securitySystem/RGR_securitySystem/bin/Debug/RGR_securitySystem.pdb
+C:/Users/Лучший человек/RiderProjects/RGR_securitySystem/RGR_securitySystem/RGR_securitySystem/obj/Debug/RGR_securitySystem.csprojAssemblyReference.cache
+C:/Users/Лучший человек/RiderProjects/RGR_securitySystem/RGR_securitySystem/RGR_securitySystem/obj/Debug/RGR_securitySystem.csproj.CoreCompileInputs.cache
+C:/Users/Лучший человек/RiderProjects/RGR_securitySystem/RGR_securitySystem/RGR_securitySystem/obj/Debug/RGR_securitySystem.exe
+C:/Users/Лучший человек/RiderProjects/RGR_securitySystem/RGR_securitySystem/RGR_securitySystem/obj/Debug/RGR_securitySystem.pdb
+/Users/sherlockd/NET projects/RGR_securitySystem/bin/Debug/RGR_securitySystem.exe
+/Users/sherlockd/NET projects/RGR_securitySystem/bin/Debug/RGR_securitySystem.pdb
+/Users/sherlockd/NET projects/RGR_securitySystem/obj/Debug/RGR_securitySystem.csprojAssemblyReference.cache
+/Users/sherlockd/NET projects/RGR_securitySystem/obj/Debug/RGR_securitySystem.exe
+/Users/sherlockd/NET projects/RGR_securitySystem/obj/Debug/RGR_securitySystem.pdb
