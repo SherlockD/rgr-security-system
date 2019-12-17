@@ -125,19 +125,31 @@ namespace RGR_securitySystem.Crypt.HammingCode
                 syndomRegister += (startRegister[i] != newRegister[i]) ? 1 : 0;
             }
                       
-            Console.WriteLine();
-            Console.WriteLine(startRegister);
-            Console.WriteLine(newRegister);
-            Console.WriteLine(syndomRegister);
+            //Console.WriteLine();
+            //Console.WriteLine(startRegister);
+            //Console.WriteLine(newRegister);
+            //Console.WriteLine(syndomRegister);
 
             //syndomRegister = syndomRegister.Reverse();
 
+            int deletesCount = 0;
+
             //double registerWithError = String2To10(syndomRegister);
 
-            if(syndomRegister.Contains('1'))
+            if (syndomRegister.Contains('1'))
             {
                 int registerWithError = String2To10(syndomRegister) - 1;
                 informationWord[registerWithError] = (byte)((informationWord[registerWithError] == 1) ? 0 : 1);
+
+                for (int i = 0; i < controlBitsCount; i++)
+                {
+                    var index = (int)Math.Pow(2, i) - 1 - deletesCount;
+
+                    deletesCount++;
+
+                    //Console.WriteLine(index);
+                    informationWord.RemoveAt(index);
+                }
             }
 
             return informationWord.ToArray();

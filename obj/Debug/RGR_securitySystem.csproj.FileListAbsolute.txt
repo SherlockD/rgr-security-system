@@ -15,3 +15,5 @@ C:/Users/Лучший человек/RiderProjects/RGR_securitySystem/RGR_securi
 /Users/sherlockd/NET projects/RGR_securitySystem/obj/Debug/RGR_securitySystem.csprojAssemblyReference.cache
 /Users/sherlockd/NET projects/RGR_securitySystem/obj/Debug/RGR_securitySystem.exe
 /Users/sherlockd/NET projects/RGR_securitySystem/obj/Debug/RGR_securitySystem.pdb
+/Users/sherlockd/NET projects/RGR_securitySystem/bin/Debug/System.Drawing.Common.dll
+/Users/sherlockd/NET projects/RGR_securitySystem/obj/Debug/RGR_securitySystem.csproj.CopyComplete

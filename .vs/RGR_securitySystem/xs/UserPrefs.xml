@@ -1,29 +1,18 @@
 ﻿<Properties StartupConfiguration="{6AFD03BA-B77D-4AE5-B161-BBA686DCC2B2}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Extensions.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Program.cs">
     <Files>
-      <File FileName="Program.cs" Line="30" Column="28" />
-      <File FileName="Crypt/HammingCode/HammingCode.cs" Line="131" Column="44" />
-      <File FileName="Extensions.cs" Line="1" Column="1" />
+      <File FileName="Program.cs" Line="40" Column="33" />
+      <File FileName="Crypt/HammingCode/HammingCode.cs" />
+      <File FileName="Extensions.cs" />
+      <File FileName="Crypt/LinearEncoding/LinearEncoding.cs" />
+      <File FileName="Crypt/AES/AES.cs" />
     </Files>
-    <Pads>
-      <Pad Id="ProjectPad">
-        <State name="__root__">
-          <Node name="RGR_securitySystem" expanded="True">
-            <Node name="RGR_securitySystem" expanded="True">
-              <Node name="Extensions.cs" selected="True" />
-            </Node>
-          </Node>
-        </State>
-      </Pad>
-    </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.ItemProperties.RGR__securitySystem PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore>
-      <Breakpoint file="/Users/sherlockd/NET projects/RGR_securitySystem/Crypt/HammingCode/HammingCode.cs" relfile="Crypt/HammingCode/HammingCode.cs" line="129" column="13" />
-    </BreakpointStore>
+    <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MultiItemStartupConfigurations />
 </Properties>

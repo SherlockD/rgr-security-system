@@ -1,4 +1,5 @@
 using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using System.Xml.XPath;
@@ -56,6 +57,27 @@ namespace RGR_securitySystem
             Array.Reverse(arrStr);
 
             return new string(arrStr);
+        }
+
+        public static void Print<T>(this T[] owner)
+        {
+            Console.WriteLine();
+
+            owner.ToList().ForEach(node => Console.Write(node));
+
+            Console.WriteLine();
+        }
+
+        public static byte[] ConvertToBitByteArray(this BitArray owner)
+        {
+            List<byte> result = new List<byte>();
+
+            foreach(var node in owner)
+            {
+                result.Add((byte)((bool)node == true ? 1 : 0));
+            }
+
+            return result.ToArray();
         }
     }
 }
