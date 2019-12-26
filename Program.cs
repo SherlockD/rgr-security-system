@@ -38,6 +38,8 @@ namespace RGR_securitySystem
             Console.WriteLine("Linear encode output");
             linearEncrypt.Print();
 
+            //linearEncoding.PrintGraphic(linearEncrypt);
+
             var linearDecrypt = linearEncoding.Decoding(linearEncrypt);
             Console.WriteLine();
             Console.WriteLine("Linear decode output");

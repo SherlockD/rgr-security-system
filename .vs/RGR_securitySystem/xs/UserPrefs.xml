@@ -1,10 +1,10 @@
 ﻿<Properties StartupConfiguration="{6AFD03BA-B77D-4AE5-B161-BBA686DCC2B2}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Program.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Crypt/LinearEncoding/LinearEncoding.cs">
     <Files>
-      <File FileName="Program.cs" Line="40" Column="33" />
+      <File FileName="Program.cs" Line="37" Column="33" />
       <File FileName="Crypt/HammingCode/HammingCode.cs" />
       <File FileName="Extensions.cs" />
-      <File FileName="Crypt/LinearEncoding/LinearEncoding.cs" />
+      <File FileName="Crypt/LinearEncoding/LinearEncoding.cs" Line="50" Column="50" />
       <File FileName="Crypt/AES/AES.cs" />
     </Files>
   </MonoDevelop.Ide.Workbench>

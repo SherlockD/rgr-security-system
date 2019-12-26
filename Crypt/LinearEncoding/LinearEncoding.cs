@@ -74,5 +74,41 @@ namespace RGR_securitySystem.Crypt.LinearEncoding
 
             return result.ToArray();
         }
+
+        public void PrintGraphic(string[] input)
+        {
+            int cursorePosition = Console.CursorTop;
+            int cursoreLeft = 0;
+
+            /*Console.WriteLine("+2,5 V");
+            Console.WriteLine("+0,833 V");
+            Console.WriteLine("-0,833 V");
+            Console.WriteLine("-2, 5 V");*/
+
+            Console.SetBufferSize(Console.BufferWidth + 100, Console.BufferHeight + 5);
+
+            foreach (var node in input)
+            {
+                switch (node)
+                {
+                    case "-2,5 V":
+                        Console.SetCursorPosition(cursoreLeft, cursorePosition + 4);                      
+                        break;
+                    case "-0,833 V":
+                        Console.SetCursorPosition(cursoreLeft, cursorePosition + 3);
+                        break;
+                    case "+2,5 V":
+                        Console.SetCursorPosition(cursoreLeft, cursorePosition + 1);
+                        break;
+                    case "+0,833 V":
+                        Console.SetCursorPosition(cursoreLeft, cursorePosition + 2);
+                        break;
+                }
+
+                Console.Write("---");
+            }
+
+            Console.WriteLine();
+        }
     }
 }
