@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
 
 namespace RGR_securitySystem.Crypt.LinearEncoding
 {
@@ -77,38 +78,50 @@ namespace RGR_securitySystem.Crypt.LinearEncoding
 
         public void PrintGraphic(string[] input)
         {
-            int cursorePosition = Console.CursorTop;
-            int cursoreLeft = 0;
+            Console.WriteLine();
 
-            /*Console.WriteLine("+2,5 V");
-            Console.WriteLine("+0,833 V");
-            Console.WriteLine("-0,833 V");
-            Console.WriteLine("-2, 5 V");*/
+            string f_String =    "+2,5V  ";
+            string s_String =    "+0,833V";
+            string th_String =   "-0,833V";
+            string four_String = "-2,5V  ";
 
-            Console.SetBufferSize(Console.BufferWidth + 100, Console.BufferHeight + 5);
+            input = input.ToList().GetRange(0, 80).ToArray();
 
             foreach (var node in input)
             {
                 switch (node)
                 {
                     case "-2,5 V":
-                        Console.SetCursorPosition(cursoreLeft, cursorePosition + 4);                      
+                        four_String += "_";
+                        f_String += " ";
+                        th_String += " ";
+                        s_String += " ";
                         break;
                     case "-0,833 V":
-                        Console.SetCursorPosition(cursoreLeft, cursorePosition + 3);
+                        four_String += " ";
+                        f_String += " ";
+                        th_String += "_";
+                        s_String += " ";
                         break;
                     case "+2,5 V":
-                        Console.SetCursorPosition(cursoreLeft, cursorePosition + 1);
+                        four_String += " ";
+                        f_String += "_";
+                        th_String += " ";
+                        s_String += " ";
                         break;
                     case "+0,833 V":
-                        Console.SetCursorPosition(cursoreLeft, cursorePosition + 2);
+                        four_String += " ";
+                        f_String += " ";
+                        th_String += " ";
+                        s_String += "_";
                         break;
                 }
-
-                Console.Write("---");
             }
 
-            Console.WriteLine();
+            Console.WriteLine(f_String);
+            Console.WriteLine(s_String);
+            Console.WriteLine(th_String);
+            Console.WriteLine(four_String);
         }
     }
 }
